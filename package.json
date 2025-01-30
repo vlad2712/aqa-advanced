@@ -1,0 +1,23 @@
+{
+  "name": "aqa-advanced",
+  "version": "1.0.0",
+  "description": "test project Hillel",
+  "main": "index.js",
+  "scripts": {
+    "test": "node nodeBasics/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlad2712/aqa-advanced.git"
+  },
+  "author": "Vladyslav Andrusyk",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/vlad2712/aqa-advanced/issues"
+  },
+  "homepage": "https://github.com/vlad2712/aqa-advanced",
+  "dependencies": {
+    "chalk": "^5.4.1"
+  }
+}
