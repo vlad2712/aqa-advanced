@@ -21,7 +21,7 @@ let age = 25;
 //     }
 //==============================================
 
-let adult = age >= 18 ? true : false;
+let adult = age >= 18
 
 
 
