@@ -8,12 +8,17 @@ const divide = (numerator, denominator) => {
         } throw new Error("denominator is 0!");
     }
 
-try {
-    console.log(divide(10, 5))
-//     console.log(divide(10, 0))
-//     console.log(divide(10, `5`))
-    } catch  (error ) {
-        throw new Error(error);
-        } finally {
-            console.log(`Робота завершена`)
-            }
+
+const validateResult = (func) => {
+    try {
+        console.log(func)
+        } catch  (error ) {
+            throw new Error(error);
+            } finally {
+                console.log(`Робота завершена`)
+                }
+    }
+
+validateResult(divide(10, 5))
+validateResult(divide(10, 0))
+validateResult(divide(10, `5`))
