@@ -5,7 +5,7 @@ const func = (arr) => {
     let negativeCount = 0;
     let zeroCount = 0;
 
-    for (const num of arr)
+    for (const num of arr) {
         if (num > 0) {
             positiveCount += 1
             }
@@ -15,6 +15,7 @@ const func = (arr) => {
         else {
             zeroCount += 1
             }
+        }
     console.log(`Кількість позитивних чисел ${positiveCount}`)
     console.log(`Кількість негативних чисел ${negativeCount}`)
     console.log(`Кількість нульових чисел ${zeroCount}`)
